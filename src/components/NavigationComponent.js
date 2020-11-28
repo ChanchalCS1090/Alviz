@@ -10,7 +10,7 @@ const NavigationComponent = (props) => {
     return (
         <div>
             <Navbar color="dark" dark expand="md" className="px-5">
-                <Link to="/"> <NavbarBrand >Alviz</NavbarBrand> </Link>
+                <NavbarBrand href="/">Alviz</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>

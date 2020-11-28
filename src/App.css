@@ -1,60 +1,9 @@
-.bgc-1 {
-    background-color: #800000af;
-}
-.bgc-2 {
-    background-color:#9A6324;
-}
-.bgc-3 {
-    background-color: #808000;
-}
-.bgc-4 {
-    background-color:#469990;
-}
-.bgc-5 {
-    background-color: #0000753a;
-}
-.bgc-6 {
-    background-color: #00000067;
-}
-.bgc-7 {
-    background-color: #e6194B;
-}
-.bgc-8 {
-    background-color: #f58231;
-}
-.bgc-9 {
-    background-color: #3cb44b;
-}
-.bgc-10 {
-    background-color: #4363d8;
-}
-.bgc-11 {
-    background-color: #911eb4;
-}
-.bgc-12 {
-    background-color: #f032e6;
-}
-.bgc-13 {
-    background-color: #a9a9a9;
-}
-.bgc-14 {
-    background-color: #ffe119;
-}
-.bgc-15 {
-    background-color: #fabed4;
-}
-.bgc-16 {
-    background-color: #ffd8b1;
-}
-.bgc-17 {
-    background-color: #fffac8;
-}
 .bgc-18 {
-    background-color: #aaffc3;
+    background-color: rgb(170, 255, 195);
 }
 .bgc-19 {
-    background-color: #dcbeff;
+    background-color: rgb(220, 190, 255);
 }
 .bgc-0 {
-    background-color: #0026ff70;
+    background-color: rgba(0, 0, 0, 0.1);
 }
