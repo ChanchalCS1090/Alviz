@@ -24,6 +24,11 @@ class BubbleSortComponent extends React.Component {
             <div>
                 <Container className="my-5">
                     <Row>
+                        <Col className="text-center m-2">
+                            <h4>Bubble Sort</h4>
+                        </Col>
+                    </Row>
+                    <Row>
                         <Col>
                             <InputSetFormComponent array = { this.state.array } parentStateSetter = { this.stateSetter } />
                         </Col>
