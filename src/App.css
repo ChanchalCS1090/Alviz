@@ -1,9 +1,27 @@
 .bgc-18 {
-    background-color: rgb(170, 255, 195);
+    background-color: #00fd4cd7;
 }
 .bgc-19 {
-    background-color: rgb(220, 190, 255);
+    background-color: #b26fff;
 }
 .bgc-0 {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #dddddd;
+}
+.bg {
+    background-color: #121212;
+}
+.bg-black {
+    background-color: #000000;
+}
+.bg-1 {
+    background-color: #272727;
+    color: #ffffff;
+}
+
+.text-1 {
+    color: #ffffff;
+}
+
+html {
+    background-color: #000000;
 }

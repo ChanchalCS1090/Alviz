@@ -1,46 +1,43 @@
 import React from 'react';
-import { Jumbotron, Card, CardImg, CardText, CardBody, CardTitle, Button, Container, Row, Col } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, Button, Container, Row, Col } from 'reactstrap';
 import {Link} from 'react-router-dom';
+import bubble from '../images/bubbleSort.png';
+import insertion from '../images/insertionSort.png';
+import selection from '../images/selectionSort.png';
 
 class HomeComponent extends React.Component {
     render() {
         return (
             <div>
-                <Jumbotron className="px-5">
-                    <h1 className="display-5">Hello, I am an Algorithm Visualization Tool...</h1>
-                    <p className="lead">I will help you learn how actually a computer processes the algorithm which you provide to it for various purposes.</p>
-                    <hr className="my-2" />
-                    <p>Happy Visualizing...   :)</p>
-                </Jumbotron>
-                <Container>
-                    <Row>
+                <Container className="my-5">
+                    <Row className="py-5">
                         <Col>
-                            <Card>
-                                <CardImg top width="100%" src="#" alt="Bubble Sort Image" />
+                            <Card inverse style={{ backgroundColor: '#272727', borderColor: '#272727' }}>
+                                <CardImg top width="100%" src={bubble} alt="Bubble Sort Image" />
                                 <CardBody>
                                     <CardTitle tag="h5">Bubble Sort</CardTitle>
                                     <CardText>How does this naive algorithm works???</CardText>
-                                    <Link to="/bubbleSort"><Button>Check out Now!</Button></Link>
+                                    <Link to="/bubbleSort"><Button color="success">Let's see</Button></Link>
                                 </CardBody>
                             </Card>
                         </Col>
                         <Col>
-                            <Card>
-                                <CardImg top width="100%" src="#" alt="Insertion Sort Image" />
+                            <Card inverse style={{ backgroundColor: '#272727', borderColor: '#272727' }}>
+                                <CardImg top width="100%" src={insertion} alt="Insertion Sort Image" />
                                 <CardBody>
-                                    <CardTitle tag="h5">Insertion Sort</CardTitle>
-                                    <CardText>How does this algorithm works???</CardText>
-                                    <Link to="/insertionSort"><Button>Check out Now!</Button></Link>
+                                    <CardTitle tag="h5">Inertion Sort</CardTitle>
+                                    <CardText>Check out the working of this algorithm?</CardText>
+                                    <Link to="/insertionSort"><Button color="success">Let's see</Button></Link>
                                 </CardBody>
                             </Card>
                         </Col>
                         <Col>
-                            <Card>
-                                <CardImg top width="100%" src="#" alt="Selection Sort Image" />
+                            <Card inverse style={{ backgroundColor: '#272727', borderColor: '#272727' }}>
+                                <CardImg top width="100%" src={selection} alt="Selection Sort Image" />
                                 <CardBody>
                                     <CardTitle tag="h5">Selection Sort</CardTitle>
-                                    <CardText>How does this algorithm works???</CardText>
-                                    <Link to="/selectionSort"><Button>Check out Now!</Button></Link>
+                                    <CardText>How does a selection sort operate?</CardText>
+                                    <Link to="/selectionSort"><Button color="success">Let's see</Button></Link>
                                 </CardBody>
                             </Card>
                         </Col>
