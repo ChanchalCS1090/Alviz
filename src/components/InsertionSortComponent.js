@@ -11,8 +11,8 @@ class InsertionSortComponent extends React.Component {
         let initialColor = [];
         for (let c = 0; c < 10; c++) initialColor.push('#b26fff');
         this.state = {
-            array: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
-            staticArray: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
+            array: [7, 6, 5, 4, 3, 2, 1],
+            staticArray: [7, 6, 5, 4, 3, 2, 1],
             speed: 5,
             color: initialColor
         };

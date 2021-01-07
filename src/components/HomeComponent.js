@@ -11,7 +11,7 @@ class HomeComponent extends React.Component {
             <div>
                 <Container className="my-5">
                     <Row className="py-5">
-                        <Col>
+                        <Col className="col-12 col-lg-4 mb-4">
                             <Card inverse style={{ backgroundColor: '#272727', borderColor: '#272727' }}>
                                 <CardImg top width="100%" src={bubble} alt="Bubble Sort Image" />
                                 <CardBody>
@@ -21,7 +21,7 @@ class HomeComponent extends React.Component {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col className="col-12 col-lg-4 mb-4">
                             <Card inverse style={{ backgroundColor: '#272727', borderColor: '#272727' }}>
                                 <CardImg top width="100%" src={insertion} alt="Insertion Sort Image" />
                                 <CardBody>
@@ -31,7 +31,7 @@ class HomeComponent extends React.Component {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col>
+                        <Col className="col-12 col-lg-4 mb-4">
                             <Card inverse style={{ backgroundColor: '#272727', borderColor: '#272727' }}>
                                 <CardImg top width="100%" src={selection} alt="Selection Sort Image" />
                                 <CardBody>

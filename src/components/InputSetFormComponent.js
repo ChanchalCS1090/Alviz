@@ -7,7 +7,7 @@ class InputSetFormComponent extends React.Component {
 
         super(props);
         this.state = { 
-            inputSet: "10,9,8,7,6,5,4,3,2,1",
+            inputSet: "7,6,5,4,3,2,1",
             speed: 5
         }
         this.handleInputChange = this.handleInputChange.bind(this);
