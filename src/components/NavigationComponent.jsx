@@ -25,6 +25,9 @@ const NavigationComponent = (props) => {
                         <NavItem>
                             <NavLink href="/selectionSort">Selection Sort</NavLink>
                         </NavItem>
+                        <NavItem>
+                            <NavLink href="/binarySearchTree">Binary Search Tree</NavLink>
+                        </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>

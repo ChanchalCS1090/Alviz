@@ -25,3 +25,14 @@
 html {
     background-color: #000000;
 }
+
+.node {
+    border: 1px solid #00fd4cd7;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #00fd4cd7;
+    color: black;
+    font-weight: bold;
+}
