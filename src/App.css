@@ -36,3 +36,11 @@ html {
     color: black;
     font-weight: bold;
 }
+
+.text-light {
+  color: #fff;
+}
+
+.text-light:hover {
+  text-decoration: none;
+}
