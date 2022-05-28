@@ -19,7 +19,7 @@ const NavigationComponent = (props) => {
     <div>
       <Navbar dark expand="md" className="px-5 bg-1">
         <NavbarBrand>
-          <Link className="text-light" to="/">
+          <Link className="text-light" to="/alstack">
             Alstack
           </Link>
         </NavbarBrand>
@@ -28,21 +28,21 @@ const NavigationComponent = (props) => {
           <Nav navbar>
             <NavItem>
               <NavLink>
-                <Link className="text-light" to="/">
+                <Link className="text-light" to="/alstack">
                   Home
                 </Link>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link className="text-light" to="/bubbleSort">
+                <Link className="text-light" to="/alstack/bubbleSort">
                   Bubble Sort
                 </Link>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link className="text-light" to="/insertionSort">
+                <Link className="text-light" to="/alstack/insertionSort">
                   {" "}
                   Insertion Sort
                 </Link>
@@ -50,7 +50,7 @@ const NavigationComponent = (props) => {
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link className="text-light" to="/selectionSort">
+                <Link className="text-light" to="/alstack/selectionSort">
                   Selection Sort
                 </Link>{" "}
               </NavLink>
@@ -58,7 +58,7 @@ const NavigationComponent = (props) => {
             {/* <NavItem>
               <NavLink>
                 {" "}
-                <Link className="text-light" to="/binarySearchTree">
+                <Link className="text-light" to="/alstack/binarySearchTree">
                   Binary Search Tree
                 </Link>{" "}
               </NavLink>
